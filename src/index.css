@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.game-wrapper {
+  background-color: #0E1E2C;
+}
+.game-inner-wrapper {
+  background-color: #f2f2f2;
+  min-height: 400px;
+}
+.die-container {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 20px;
+}
+.die {
+  height: 60px;
+  cursor: pointer;
+}
